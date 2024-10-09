@@ -1,8 +1,8 @@
-**Shimmra Library Documentation**
+**Shimmera Library Documentation**
 
 **Introduction:**
 
-Shimmra is an Android library that displays a shimmer effect over images while they load using Glide. It supports customizable placeholder images, shimmer duration, direction, shape, colors, and more. Shimmra aims to improve user experience during image loading by adding a visually engaging shimmer effect.
+Shimmera is an Android library that displays a shimmer effect over images while they load using Glide. It supports customizable placeholder images, shimmer duration, direction, shape, colors, and more. Shimmera aims to improve user experience during image loading by adding a visually engaging shimmer effect.
 
 **Features:**
 
@@ -19,7 +19,7 @@ To install the library, add the following to your project’s build.gradle file:
 
 dependencies {
 
-implementation 'com.github.yourusername:shimmra:1.0.0'
+implementation 'com.github.yourusername:Shimmera:1.0.0'
 
 }
 
@@ -126,4 +126,4 @@ shimmerColor.loadImage("<https://example.com/image.jpg>")
 
 **License:**
 
-The Shimmra library is distributed under the MIT License.
+The Shimmera library is distributed under the MIT License.
