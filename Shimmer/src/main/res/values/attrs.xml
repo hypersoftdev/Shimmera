@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ShimmeraWithPlaceholder">
+        <attr name="pl_shimmer_duration" format="integer" />
+        <attr name="pl_shimmer_baseAlpha" format="float" />
+        <attr name="pl_shimmer_highlightAlpha" format="float" />
+        <attr name="pl_placeholderImage" format="reference" />
+
+        <attr name="shimmer_placeholder_direction" format="enum">
+            <enum name="left_to_right" value="0" />
+            <enum name="right_to_left" value="1" />
+            <enum name="top_to_bottom" value="2" />
+            <enum name="bottom_to_top" value="3" />
+        </attr>
+
+        <attr name="shimmer_placeholder_shape" format="enum">
+            <enum name="linear" value="0" />
+            <enum name="radial" value="1" />
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="ShimmeraColorBase">
+        <attr name="shimmer_colo_duration" format="integer" />
+        <attr name="shimmer_colo_baseAlpha" format="float" />
+        <attr name="shimmer_colo_highlightAlpha" format="float" />
+        <attr name="shimmer_colo_base_color" format="color"/>
+        <attr name="shimmer_colo_highlight_color" format="color"/>
+
+        <attr name="shimmer_colo_direction" format="enum">
+            <enum name="left_to_right" value="0" />
+            <enum name="right_to_left" value="1" />
+            <enum name="top_to_bottom" value="2" />
+            <enum name="bottom_to_top" value="3" />
+        </attr>
+
+        <attr name="shimmer_colo_shape" format="enum">
+            <enum name="linear" value="0" />
+            <enum name="radial" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>

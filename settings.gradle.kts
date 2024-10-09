@@ -21,3 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Shimmera"
 include(":app")
+include(":Shimmer")

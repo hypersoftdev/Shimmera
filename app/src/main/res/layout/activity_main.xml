@@ -7,13 +7,45 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+
+<!--    <com.example.shimmer.ShimmeraWithPlaceholder
+        android:id="@+id/smImgView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        app:pl_shimmer_baseAlpha="0.9"
+        app:pl_shimmer_highlightAlpha="0.3"
+        app:shimmer_duration="1000"
+        app:shimmer_placeholder_shape="radial"
+        app:shimmer_placeholder_direction="left_to_right"
+        app:pl_placeholderImage="@drawable/placeholder_img"
+        />-->
+
+
+   <com.example.shimmer.ShimmeraColorBase
+        android:id="@+id/smImgView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="20dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        app:shimmer_colo_baseAlpha="0.5"
+        app:shimmer_colo_base_color="@color/light_orange"
+        app:shimmer_colo_direction="left_to_right"
+        app:shimmer_colo_duration="1000"
+        app:shimmer_colo_highlightAlpha="0.7"
+        app:shimmer_colo_highlight_color="@color/salmon"
+        app:shimmer_colo_shape="radial" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
