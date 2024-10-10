@@ -120,11 +120,14 @@ shimmerColor.loadImage("https://example.com/image.jpg")
 | `shimmer_colo_direction`      | Direction of the shimmer animation (`left_to_right`, `top_to_bottom`, etc.) | `bottom_to_top` |
 | `shimmer_colo_shape`          | Shape of the shimmer animation (`linear` or `radial`)         | `radial`      |
 
+## Screen Demo
+
+
 # Acknowledgements
 
 This work would not have been possible without the invaluable contributions of **Jamshed Mehmood**. His expertise, dedication, and unwavering support have been instrumental in bringing this project to fruition.
 
-![Profile]()
+![Profile](https://github.com/hypersoftdev/Shimmera/blob/master/screens/profile_image.jpg?raw=true)
 
 We are deeply grateful for **Jamshed Mehmood** involvement and his belief in the importance of this work. His contributions have made a significant impact, and we are honored to have had the opportunity to collaborate with him.
 
