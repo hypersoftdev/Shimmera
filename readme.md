@@ -1,3 +1,5 @@
+[![](https://jitpack.io/v/hypersoftdev/Shimmera.svg)](https://jitpack.io/#hypersoftdev/Shimmera)
+
 # Shimmera
 
 **Shimmera** is an Android library that displays a shimmer effect over images while they load using Glide. It supports customizable placeholder images, shimmer duration, direction, shape, colors, and more. **Shimmera** aims to enhance user experience during image loading by adding a visually engaging shimmer effect.
@@ -30,7 +32,7 @@ repositories {
 
 ### Step B: Add Dependencies
 
-Include the **Shimmera** library in your **app-level** `build.gradle` file. Replace `x.x.x` with the latest version:
+Include the **Shimmera** library in your **app-level** `build.gradle` file. Replace `x.x.x` with the latest version: [![](https://jitpack.io/v/hypersoftdev/Shimmera.svg)](https://jitpack.io/#hypersoftdev/Shimmera)
 
 ```
 implementation 'com.github.hypersoftdev:Shimmera:x.x.x'
