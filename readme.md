@@ -122,6 +122,8 @@ shimmerColor.loadImage("https://example.com/image.jpg")
 
 ## Screen Demo
 
+![Demo1](https://github.com/hypersoftdev/Shimmera/blob/master/screens/screen_color_effect.gif?raw=true)
+![Demo2](https://github.com/hypersoftdev/Shimmera/blob/master/screens/screen_place_holder.gif?raw=true)
 
 # Acknowledgements
 
