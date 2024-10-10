@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.sample.shimmera"
+    namespace = "com.hypersoft.shimmereffect"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.sample.shimmera"
+        applicationId = "com.hypersoft.shimmereffect"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -27,22 +27,20 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
     kotlinOptions {
-        jvmTarget = "1.8"
+        jvmTarget = "17"
     }
 }
 
 dependencies {
-    implementation(project(":Shimmer"))
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
-    testImplementation(libs.junit)
-    androidTestImplementation(libs.androidx.junit)
-    androidTestImplementation(libs.androidx.espresso.core)
+
+    implementation(project(":shimmera"))
 }

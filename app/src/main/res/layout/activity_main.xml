@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
 
-<!--    <com.example.shimmer.ShimmeraWithPlaceholder
+<!--    <com.hypersoft.shimmera.ShimmeraWithPlaceholder
         android:id="@+id/smImgView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -27,7 +27,7 @@
         />-->
 
 
-   <com.example.shimmer.ShimmeraColorBase
+   <com.hypersoft.shimmera.ShimmeraColorBase
         android:id="@+id/smImgView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
